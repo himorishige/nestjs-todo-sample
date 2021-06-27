@@ -24,6 +24,8 @@
 
 ## Description
 
+Zennに公開中の[NestJSでMySQLを利用したGraphQLなAPIを構築してみる](https://zenn.dev/himorishige/articles/04ad0aeb5cc065)のリポジトリです。
+
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
