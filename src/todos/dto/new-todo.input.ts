@@ -5,7 +5,7 @@ import { IsString, Length } from 'class-validator';
 export class NewTodoInput {
   @Field()
   @IsString()
-  @Length(5, 140)
+  @Length(5, 140, { message: '5文字以上140文字以内です' })
   name: string;
 
   @Field(() => Int)
